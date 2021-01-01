@@ -1,0 +1,90 @@
+/* Parent element styling */
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+}
+
+/* Section styling */
+#header, #content, #footer {
+  /* Styles all elements with either the id "header", "content" or "footer" */
+  margin: 0;
+  padding: 1%;
+
+  font-family: Helvetica;
+}
+
+#header {
+  /* Styles the element with the "header" id */
+  color: white;
+  background-color: #3ab2ef;
+
+  text-align: center;
+}
+
+#content {
+  /* Styles the element with the "content" id */
+  background-color: #3093c5;
+}
+
+#footer {
+  /* Styles the element with the "footer" id */
+  color: white;
+  background-color: #696969;
+
+  display: flex;
+  flex-direction: row;
+}
+
+/* Component styling */
+.footercolumn {
+  text-align: center;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.footerlinklist {
+  text-align: left;
+}
+
+.footerlinklist a {
+  color: #3ab2ef;
+  text-decoration: underline;
+}
+
+/* Styling blog posts */
+.blogpost {
+  margin: 2% 0 2% 3%;
+  padding: 0;
+}
+
+.blogpostauthorpicture {
+  margin-right: 10px;
+  width: 75px;
+  height: 75px;
+
+  border-radius: 50%;
+
+  float: left;
+}
+
+.blogposttitle, .blogpostregards, .blogpostauthor {
+  margin: 0;
+  padding: 0;
+}
+
+.blogposttitle {
+  font-size: 40px;
+}
+
+.blogpostregards {
+  font-size: 10px;
+  color: #aaaaaa;
+}
+
+.blogpostauthor {
+  font-size: 15px;
+  color: #aaaaaa;
+}
