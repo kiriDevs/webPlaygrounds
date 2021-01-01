@@ -1,5 +1,5 @@
 # webPlaygrounds
-![Jekyll site CI - Latest build](https://github.com/kiriDevs/webPlaygrounds/workflows/Jekyll%20site%20CI/badge.svg)
+![Jekyll site CI - Latest build](https://github.com/kiriDevs/webPlaygrounds/workflows/Jekyll%20site%20CI/badge.svg)<br>
 Just some simple templates for webpages. Feel free to check these and copy bits of HTML, CSS or JavaScript for your own webpage - or copy the whole thing to start your own (non-commercial) page
 
 ## File structure
