@@ -49,6 +49,11 @@ html, body {
   text-align: left;
 }
 
+.footerlinklist a {
+  color: #3ab2ef;
+  text-decoration: underline;
+}
+
 /* Styling blog posts */
 .blogpost {
   margin: 2% 0 2% 3%;
